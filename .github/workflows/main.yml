@@ -1,9 +1,8 @@
-name: Daily CFIP
+name: Daily Python Script Execution
 
 on:
   schedule:
-    - cron: '0 */3 * * *'
-
+    - cron: '0 */6 * * *'
   workflow_dispatch:  # 允许手动触发
 
 jobs:
